@@ -2,7 +2,9 @@
 
 ## 1. 程序说明
 
-VoicePrint 是一款基于高斯混合模型的文本无关的声纹识别算法验证程序
+VoicePrint ([算法原理说明点我](http://blog.csdn.net/c395565746c/article/details/6210920)) 是一款基于高斯混合模型的文本无关的声纹识别算法验证程序
+
+
 
 VoicePrint的特点是：
  
