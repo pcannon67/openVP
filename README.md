@@ -42,6 +42,8 @@ VoicePrint的特点是：
 
 - [Dake](https://github.com/dake/)
 
+- [支持我的项目 Thor](https://github.com/PixelCyber/Thor)
+
 **如果觉得这个项目有用，请我喝杯咖啡吧：**
 
 - 支付宝钱包扫码：
