@@ -1,48 +1,48 @@
 # VoicePrint
 
-## 1. 程序说明
+## 1. Program Description
 
-VoicePrint ([算法原理说明点我](http://blog.csdn.net/c395565746c/article/details/6210920)) 是一款基于高斯混合模型的文本无关的声纹识别算法验证程序
+VoicePrint ([Algorithm of Algorithms] (http://blog.csdn.net/c395565746c/article/details/6210920)) is a text-independent voiceprint recognition algorithm verification program based on Gaussian mixture model.
 
 
 
-VoicePrint的特点是：
- 
-- 语音特征向量：采用 MFCC系数（梅尔倒谱系数）
-- 模式匹配模型：采用 GMM 模型（高斯混合模型）
-	
-## 2. 最近更新
+The features of VoicePrint are:
+ 
+- Speech feature vector: using MFCC coefficient (Meir cepstrum coefficient)
+- Pattern matching model: using the GMM model (Gaussian hybrid model)
 
-**VoicePrint V1.1正式版**
+## 2. Last updated
 
-- 修复建模、识别过程中间语音转储临时文件可能无法删除。
-- 修改语音段数由 3 改为 4，每段语音改为定长的 50 帧。
-- GMM模型数据转储文件结构微调，不再兼容 V1.1 以前的版本。
+**VoicePrint V1.1 official version**
+
+- Repairing the modeling and recognition process The intermediate voice dump temporary files may not be deleted.
+- Change the number of voice segments from 3 to 4, and change each voice to 50 frames of fixed length.
+- The GMM model data dump file structure is fine-tuned and is no longer compatible with versions prior to V1.1.
 
 **VoicePrint V1.0**
 
-- 增加了将 GMM 模型数据导出为文件的功能，并能把文件导入程序。
-- 修改了识别范围值。
-- 修改了声纹识别算法，改为动态数组分配内存。
+- Added the ability to export GMM model data to a file and import files into the program.
+- Modified the recognition range value.
+- Modified the voiceprint recognition algorithm to allocate memory to a dynamic array.
 
-## 3. 温馨提醒
+## 3. Warm reminder
 
-本程序为课程实验验证开发，所实现的声纹识别算法难免有错误及不妥之处！
-   
-提醒：因为本程序是简略的验证程序，建议不要在正式项目中直接使用本程序中的声纹识别代码。
+This program is developed for the course experiment verification, and the voiceprint recognition algorithm realized is inevitably wrong and inappropriate!
+   
+Reminder: Because this program is a simple verification program, it is recommended not to use the voiceprint recognition code in this program directly in the official project.
 
-### TODO: 
+### TODO:
 
-- 音量归一化（暂无，提高识别率）
-- 去除背景噪声（暂无，提高识别率）
-- iOS Demo（2016年）
-- 英文注释及 README（2016年）
+- Volume normalization (no time, improve recognition rate)
+- Remove background noise (nothing, improve recognition rate)
+- iOS Demo (2016)
+- English notes and README (2016)
 
-## 4. 贡献者
+## 4. Contributors
 
 - [Dake](https://github.com/dake/)
 
 
-**如果觉得这个项目有用，支持我的其它项目吧：**
+**If you find this project useful, support my other projects:**
 
-- [支持我的项目 Thor](https://github.com/PixelCyber/Thor)
+- [Support my project Thor] (https://github.com/PixelCyber/Thor)
